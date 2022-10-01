@@ -12,6 +12,7 @@ def bubbleSort(arr):
 
 			# traverse the array from 0 to n-i-1
 			# Swap if the element found is greater
+# hacktoberfest2022
 			# than the next element
 			if arr[j] > arr[j + 1] :
 				arr[j], arr[j + 1] = arr[j + 1], arr[j]
